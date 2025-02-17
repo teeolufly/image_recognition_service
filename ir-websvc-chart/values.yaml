@@ -1,0 +1,10 @@
+replicaCount: 1
+
+image:
+  name: ir-websvc
+  tag: latest
+
+service:
+  type: LoadBalancer
+  port: 8000
+  containerPort: 8000
